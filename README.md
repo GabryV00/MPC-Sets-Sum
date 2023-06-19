@@ -17,7 +17,8 @@ The project consists of the following files:
   * GarbledGate class which generates the garbled table of a gate
 - `src/ot.py` implement oblivious transfer
 - `src/util.py` implements many functions related to network communications and asymmetric key generation
-
+## Dependency installation
+To install the necessary libraries, not present in Python 3, you can run the following command: `$ pip3 install --user pyzmq cryptography sympy`
 ## Documentation
 There are also two pdf files:
 - `documentation.pdf` is the well detailed documentation of the project
